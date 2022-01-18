@@ -1,14 +1,14 @@
 
 #!/usr/bin/python3
-
-" Define a class Square Empty "
+"""Class Square definition"""
 
 
 class Square:
-    """
-    Define a classe Square
-    Attribute:
-        size(int): size of the square
-    """
+    """Class Square that defines a square:
+        - Private instance attribute: size
+        - Instantiation with size (no type/value verification)
+        - You are not allowed to import any module"""
     def __init__(self, size):
+        """Size is a private attributte:
+        The size of a square is crucial for a square"""
         self.__size = size
